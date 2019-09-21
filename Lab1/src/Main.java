@@ -6,7 +6,7 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
         question1();
-        MM1(125, 2000,1000000, 1000);
+        MM1(125, 0.0005,1000000, 1000);
     }
 
     public static void question1() {
@@ -22,13 +22,9 @@ public class Main {
     }
 
     public static void MM1(double packetsPerSecond, double packetLength, double transmissonRate, double totalSimulationTime) {
-        MM1Queue queue = new MM1Queue(packetsPerSecond, packetLength, transmissonRate, totalSimulationTime);
-        queue.addEvents();
-//        for (QueueEvent x : queue.queue){
-//            System.out.println(String.format("Time: %s, Type: %s",x.eventTime, x.queueType));
-//        }
-//        System.out.println(queue.queue.size());
-        System.out.println(queue.queue.size());
+        MM1Queue mm1Queue = new MM1Queue(packetsPerSecond, packetLength, transmissonRate, totalSimulationTime);
+        mm1Queue.addEvents();
+        mm1Queue.startSimulation();
 
     }
 }

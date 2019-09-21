@@ -11,13 +11,23 @@ public class MM1Queue {
     private final double packetLength;
     private final double totalSimulationTime;
     private final double transmissionRate;
+
     public final LinkedList<QueueEvent> queue = new LinkedList<>();
 
-    public MM1Queue(double arrivalRate, double packLength, double transmissionRate, double totalSimulationTime){
+    // Used for collecting data
+    private int queueSize = 0;
+    private int numberOfObserverEvents = 0;
+    private int totalNumberofPacketsObserved = 0;
+    private int idleCounter = 0;
+    private int generatedPackets = 0;
+    private int numberOfArrivals = 0;
+    private int numberOfDepartures = 0;
+
+    public MM1Queue(double arrivalRate, double packetLength, double transmissionRate, double totalSimulationTime){
         this.arrivalRate = arrivalRate;
         this.observerRate = this.arrivalRate * 5;
         this.totalSimulationTime = totalSimulationTime;
-        this.packetLength = packLength;
+        this.packetLength = packetLength;
         this.transmissionRate = transmissionRate;
     }
 
@@ -75,9 +85,45 @@ public class MM1Queue {
         }
     }
 
+    private void handleObserverEvent() {
+        this.numberOfObserverEvents += 1;
+        this.totalNumberofPacketsObserved += this.queueSize;
+        if (this.queueSize == 0) {
+            this.idleCounter += 1;
+        }
+    }
+
+    private void handleArrivalEvent() {
+        this.queueSize += 1;
+        this.generatedPackets += 1;
+        this.numberOfArrivals += 1;
+    }
+
+    private void handleDepartureEvent() {
+        this.queueSize -= 1;
+        this.numberOfDepartures += 1;
+    }
+
     public void startSimulation() {
         double time = 0;
-        
+        int index = 0;
+        while (time < this.totalSimulationTime) {
+            QueueEvent currentEvent = this.queue.get(index);
+            if (currentEvent.queueType == QueueEvent.Type.Observer) {
+                handleObserverEvent();
+            } else if (currentEvent.queueType == QueueEvent.Type.Arrival) {
+                handleArrivalEvent();
+            } else {
+                handleDepartureEvent();
+            }
+            index += 1;
+            time = currentEvent.eventTime;
+        }
+
+        System.out.println(String.format(
+                "Number of Arrivals: %s, Number of Departures: %s, Number of Observartions: %s, Idle Counter: %s, Number of Generated Packets: %s, Total packets in Queue: %s",
+                this.numberOfArrivals, this.numberOfDepartures, this.numberOfObserverEvents, this.idleCounter, this.generatedPackets, this.totalNumberofPacketsObserved)
+        );
     }
 
 
