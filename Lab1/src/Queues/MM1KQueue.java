@@ -61,9 +61,9 @@ public class MM1KQueue {
             arrival = ExponentialRandomVariable.generateRandomVariable(this.arrivalRate);
             time += arrival;
             removePacketFromQueue(time);
+            this.generatedPackets += 1;
             if (this.packetQueue.size() == this.totalQueueSize) {
                 this.packetsDropped += 1;
-                System.out.println("packet dropped");
             } else {
                 currentDeparture = createDepartureEvents(previousDeparture, time);
                 QueueEvent arrivalEvent = new QueueEvent(QueueEvent.Type.Arrival, time);
@@ -74,7 +74,6 @@ public class MM1KQueue {
                 previousDeparture = currentDeparture;
             }
         }
-        this.generatedPackets += 1;
     }
 
     private QueueEvent createDepartureEvents(QueueEvent previousEvent, double arrivalTime) {
@@ -142,9 +141,10 @@ public class MM1KQueue {
             }
         }
         double expectedValue = Double.valueOf(this.totalNumberofPacketsObserved)/Double.valueOf(this.numberOfObserverEvents);
+        double packetLoss = Double.valueOf(this.packetsDropped)/Double.valueOf(this.generatedPackets);
         System.out.println(String.format(
-                "Number of Arrivals: %s, Number of Departures: %s, Number of Observartions: %s, Idle Counter: %s, Number of Generated Packets: %s, Total packets in Queue: %s, Total packets dropped: %s, Expected Value: %s",
-                this.numberOfArrivals, this.numberOfDepartures, this.numberOfObserverEvents, this.idleCounter, this.generatedPackets, this.totalNumberofPacketsObserved, this.packetsDropped, expectedValue)
+                "Number of Arrivals: %s, Number of Departures: %s, Number of Observartions: %s, Idle Counter: %s, Number of Generated Packets: %s, Total packets in Queue: %s, Total packets dropped: %s, Expected Value: %s, Percentage of packetloss: %s",
+                this.numberOfArrivals, this.numberOfDepartures, this.numberOfObserverEvents, this.idleCounter, this.generatedPackets, this.totalNumberofPacketsObserved, this.packetsDropped, expectedValue, packetLoss)
         );
     }
 

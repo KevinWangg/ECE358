@@ -1,0 +1,405 @@
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 0.4
+Number of Arrivals: 199752, Number of Departures: 199752, Number of Observartions: 1002508, Idle Counter: 602177, Number of Generated Packets: 199759, Total packets in Queue: 663289, Total packets dropped: 7, Expected Value: 0.6616296328807351, Percentage of packetloss: 3.5042225882188036E-5
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 0.5
+Number of Arrivals: 249967, Number of Departures: 249967, Number of Observartions: 1250903, Idle Counter: 627006, Number of Generated Packets: 250070, Total packets in Queue: 1238465, Total packets dropped: 103, Expected Value: 0.9900567829799752, Percentage of packetloss: 4.118846722917583E-4
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 0.6
+Number of Arrivals: 298867, Number of Departures: 298867, Number of Observartions: 1500351, Idle Counter: 604919, Number of Generated Packets: 299525, Total packets in Queue: 2163633, Total packets dropped: 658, Expected Value: 1.4420845522147818, Percentage of packetloss: 0.0021968116183957932
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 0.7
+Number of Arrivals: 347071, Number of Departures: 347071, Number of Observartions: 1750131, Idle Counter: 538059, Number of Generated Packets: 350275, Total packets in Queue: 3694791, Total packets dropped: 3204, Expected Value: 2.1111511081170495, Percentage of packetloss: 0.009147098708157875
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 0.8
+Number of Arrivals: 392009, Number of Departures: 392009, Number of Observartions: 1999157, Idle Counter: 432854, Number of Generated Packets: 401450, Total packets in Queue: 5942247, Total packets dropped: 9441, Expected Value: 2.9723763566343213, Percentage of packetloss: 0.023517249968862872
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 0.9
+Number of Arrivals: 426598, Number of Departures: 426598, Number of Observartions: 2251432, Idle Counter: 329823, Number of Generated Packets: 449604, Total packets in Queue: 8940710, Total packets dropped: 23006, Expected Value: 3.971121490677933, Percentage of packetloss: 0.0511694735811959
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 1.0
+Number of Arrivals: 454382, Number of Departures: 454382, Number of Observartions: 2499182, Idle Counter: 225721, Number of Generated Packets: 500403, Total packets in Queue: 12500448, Total packets dropped: 46021, Expected Value: 5.001815794127839, Percentage of packetloss: 0.09196787389364172
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 1.1
+Number of Arrivals: 472742, Number of Departures: 472742, Number of Observartions: 2750177, Idle Counter: 147759, Number of Generated Packets: 549585, Total packets in Queue: 16318164, Total packets dropped: 76843, Expected Value: 5.933495916808264, Percentage of packetloss: 0.1398200460347353
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 1.2
+Number of Arrivals: 484093, Number of Departures: 484093, Number of Observartions: 3000453, Idle Counter: 90315, Number of Generated Packets: 601558, Total packets in Queue: 20224417, Total packets dropped: 117465, Expected Value: 6.7404545247001035, Percentage of packetloss: 0.19526795421222892
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 1.3
+Number of Arrivals: 490634, Number of Departures: 490634, Number of Observartions: 3249875, Idle Counter: 57123, Number of Generated Packets: 651015, Total packets in Queue: 23832128, Total packets dropped: 160381, Expected Value: 7.333244509404208, Percentage of packetloss: 0.24635530671336298
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 1.4
+Number of Arrivals: 494318, Number of Departures: 494318, Number of Observartions: 3501592, Idle Counter: 36279, Number of Generated Packets: 698943, Total packets in Queue: 27202126, Total packets dropped: 204625, Expected Value: 7.768502441175328, Percentage of packetloss: 0.2927635014586311
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 1.5
+Number of Arrivals: 496947, Number of Departures: 496947, Number of Observartions: 3750919, Idle Counter: 22458, Number of Generated Packets: 747347, Total packets in Queue: 30422452, Total packets dropped: 250400, Expected Value: 8.110666212733467, Percentage of packetloss: 0.33505185676800736
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 1.6
+Number of Arrivals: 497961, Number of Departures: 497961, Number of Observartions: 4003242, Idle Counter: 13369, Number of Generated Packets: 798925, Total packets in Queue: 33603171, Total packets dropped: 300964, Expected Value: 8.393989421573814, Percentage of packetloss: 0.37671120568263605
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 1.7
+Number of Arrivals: 499041, Number of Departures: 499041, Number of Observartions: 4249454, Idle Counter: 8788, Number of Generated Packets: 850825, Total packets in Queue: 36556673, Total packets dropped: 351784, Expected Value: 8.602675308404327, Percentage of packetloss: 0.41346222783768694
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 1.8
+Number of Arrivals: 498671, Number of Departures: 498671, Number of Observartions: 4499006, Idle Counter: 5375, Number of Generated Packets: 900834, Total packets in Queue: 39456715, Total packets dropped: 402163, Expected Value: 8.77009610567312, Percentage of packetloss: 0.4464340821949438
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 1.9
+Number of Arrivals: 499810, Number of Departures: 499810, Number of Observartions: 4748047, Idle Counter: 3485, Number of Generated Packets: 951533, Total packets in Queue: 42261718, Total packets dropped: 451723, Expected Value: 8.900863449751023, Percentage of packetloss: 0.4747318274825991
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 2.0
+Number of Arrivals: 499851, Number of Departures: 499851, Number of Observartions: 4999430, Idle Counter: 2708, Number of Generated Packets: 999098, Total packets in Queue: 45015700, Total packets dropped: 499247, Expected Value: 9.004166474978147, Percentage of packetloss: 0.4996977273500698
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 2.2
+Number of Arrivals: 499571, Number of Departures: 499571, Number of Observartions: 5502142, Idle Counter: 958, Number of Generated Packets: 1102771, Total packets in Queue: 50457884, Total packets dropped: 603200, Expected Value: 9.170589199624438, Percentage of packetloss: 0.5469857295848367
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 2.4
+Number of Arrivals: 500956, Number of Departures: 500956, Number of Observartions: 6000498, Idle Counter: 542, Number of Generated Packets: 1199519, Total packets in Queue: 55710836, Total packets dropped: 698563, Expected Value: 9.284368730728684, Percentage of packetloss: 0.5823692663475943
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 2.6
+Number of Arrivals: 498822, Number of Departures: 498822, Number of Observartions: 6498991, Idle Counter: 348, Number of Generated Packets: 1300307, Total packets in Queue: 60951942, Total packets dropped: 801485, Expected Value: 9.378677705508439, Percentage of packetloss: 0.6163813622475308
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 2.8
+Number of Arrivals: 499229, Number of Departures: 499229, Number of Observartions: 6998008, Idle Counter: 255, Number of Generated Packets: 1401660, Total packets in Queue: 66104854, Total packets dropped: 902431, Expected Value: 9.446238701070362, Percentage of packetloss: 0.6438301727951143
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 3.0
+Number of Arrivals: 500313, Number of Departures: 500313, Number of Observartions: 7504930, Idle Counter: 64, Number of Generated Packets: 1498945, Total packets in Queue: 71278296, Total packets dropped: 998632, Expected Value: 9.497529757106328, Percentage of packetloss: 0.6662232436813893
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 3.2
+Number of Arrivals: 499993, Number of Departures: 499993, Number of Observartions: 8002626, Idle Counter: 36, Number of Generated Packets: 1598515, Total packets in Queue: 76392448, Total packets dropped: 1098522, Expected Value: 9.54592255092266, Percentage of packetloss: 0.6872140705592378
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 3.4
+Number of Arrivals: 500186, Number of Departures: 500186, Number of Observartions: 8496492, Idle Counter: 21, Number of Generated Packets: 1699857, Total packets in Queue: 81409927, Total packets dropped: 1199671, Expected Value: 9.581592850319874, Percentage of packetloss: 0.7057481894065206
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 3.6
+Number of Arrivals: 499612, Number of Departures: 499612, Number of Observartions: 8999983, Idle Counter: 2, Number of Generated Packets: 1800302, Total packets in Queue: 86552611, Total packets dropped: 1300690, Expected Value: 9.616974943174892, Percentage of packetloss: 0.7224843387387228
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 3.8
+Number of Arrivals: 500941, Number of Departures: 500941, Number of Observartions: 9499317, Idle Counter: 3, Number of Generated Packets: 1901827, Total packets in Queue: 91609248, Total packets dropped: 1400886, Expected Value: 9.64377207329748, Percentage of packetloss: 0.7366001218828001
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 4.0
+Number of Arrivals: 498938, Number of Departures: 498938, Number of Observartions: 9997174, Idle Counter: 43, Number of Generated Packets: 1999900, Total packets in Queue: 96643858, Total packets dropped: 1500962, Expected Value: 9.667117727469783, Percentage of packetloss: 0.7505185259262963
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 4.2
+Number of Arrivals: 500420, Number of Departures: 500420, Number of Observartions: 10503127, Idle Counter: 9, Number of Generated Packets: 2100489, Total packets in Queue: 101751192, Total packets dropped: 1600069, Expected Value: 9.687704623584958, Percentage of packetloss: 0.7617602377351179
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 4.4
+Number of Arrivals: 500351, Number of Departures: 500351, Number of Observartions: 11003706, Idle Counter: 0, Number of Generated Packets: 2199317, Total packets in Queue: 106789085, Total packets dropped: 1698966, Expected Value: 9.704828991250766, Percentage of packetloss: 0.7724970979626857
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 4.6
+Number of Arrivals: 500601, Number of Departures: 500601, Number of Observartions: 11505510, Idle Counter: 3, Number of Generated Packets: 2299792, Total packets in Queue: 111850834, Total packets dropped: 1799191, Expected Value: 9.721501610967268, Percentage of packetloss: 0.7823277061577742
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 4.8
+Number of Arrivals: 497982, Number of Departures: 497982, Number of Observartions: 11995267, Idle Counter: 6, Number of Generated Packets: 2403075, Total packets in Queue: 116807289, Total packets dropped: 1905093, Expected Value: 9.737781493317323, Percentage of packetloss: 0.7927730095814738
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 5.0
+Number of Arrivals: 500418, Number of Departures: 500418, Number of Observartions: 12502879, Idle Counter: 4, Number of Generated Packets: 2500021, Total packets in Queue: 121895828, Total packets dropped: 1999603, Expected Value: 9.749420753412075, Percentage of packetloss: 0.7998344813903563
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 5.4
+Number of Arrivals: 499717, Number of Departures: 499717, Number of Observartions: 13498392, Idle Counter: 1, Number of Generated Packets: 2699969, Total packets in Queue: 131929544, Total packets dropped: 2200252, Expected Value: 9.773722973817918, Percentage of packetloss: 0.8149175046083862
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 5.8
+Number of Arrivals: 501514, Number of Departures: 501514, Number of Observartions: 14508282, Idle Counter: 0, Number of Generated Packets: 2899822, Total packets in Queue: 142045662, Total packets dropped: 2398308, Expected Value: 9.790660396592788, Percentage of packetloss: 0.8270535225955248
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 6.2
+Number of Arrivals: 500123, Number of Departures: 500123, Number of Observartions: 15494230, Idle Counter: 7, Number of Generated Packets: 3098055, Total packets in Queue: 151960657, Total packets dropped: 2597932, Expected Value: 9.80756429974255, Percentage of packetloss: 0.8385687148872437
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 6.6
+Number of Arrivals: 499243, Number of Departures: 499243, Number of Observartions: 16502758, Idle Counter: 17, Number of Generated Packets: 3300375, Total packets in Queue: 162078504, Total packets dropped: 2801132, Expected Value: 9.821297991523599, Percentage of packetloss: 0.8487314320342385
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 7.0
+Number of Arrivals: 499158, Number of Departures: 499158, Number of Observartions: 17504798, Idle Counter: 1, Number of Generated Packets: 3500558, Total packets in Queue: 172139190, Total packets dropped: 3001400, Expected Value: 9.833828987915199, Percentage of packetloss: 0.857406162103299
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 7.4
+Number of Arrivals: 499607, Number of Departures: 499607, Number of Observartions: 18495874, Idle Counter: 27, Number of Generated Packets: 3701639, Total packets in Queue: 182078000, Total packets dropped: 3202032, Expected Value: 9.844249587772927, Percentage of packetloss: 0.8650308687584067
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 7.8
+Number of Arrivals: 498797, Number of Departures: 498797, Number of Observartions: 19501490, Idle Counter: 2, Number of Generated Packets: 3898454, Total packets in Queue: 192155849, Total packets dropped: 3399657, Expected Value: 9.853393202263007, Percentage of packetloss: 0.8720526136771141
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 8.2
+Number of Arrivals: 500845, Number of Departures: 500845, Number of Observartions: 20501355, Idle Counter: 0, Number of Generated Packets: 4099078, Total packets in Queue: 202157441, Total packets dropped: 3598233, Expected Value: 9.860686818017639, Percentage of packetloss: 0.8778152062488198
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 8.6
+Number of Arrivals: 500209, Number of Departures: 500209, Number of Observartions: 21495864, Idle Counter: 14, Number of Generated Packets: 4300495, Total packets in Queue: 212132101, Total packets dropped: 3800286, Expected Value: 9.868507774332773, Percentage of packetloss: 0.8836857152490586
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 9.0
+Number of Arrivals: 498995, Number of Departures: 498995, Number of Observartions: 22503842, Idle Counter: 0, Number of Generated Packets: 4503854, Total packets in Queue: 222230586, Total packets dropped: 4004859, Expected Value: 9.8752286831733, Percentage of packetloss: 0.8892071101771949
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 9.4
+Number of Arrivals: 499303, Number of Departures: 499303, Number of Observartions: 23499871, Idle Counter: 13, Number of Generated Packets: 4701590, Total packets in Queue: 232205087, Total packets dropped: 4202287, Expected Value: 9.881121772966328, Percentage of packetloss: 0.8938012459614726
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 9.8
+Number of Arrivals: 499766, Number of Departures: 499766, Number of Observartions: 24499206, Idle Counter: 2, Number of Generated Packets: 4902742, Total packets in Queue: 242219662, Total packets dropped: 4402976, Expected Value: 9.886837230561676, Percentage of packetloss: 0.8980639813394219
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 10, rho value: 10.0
+Number of Arrivals: 500429, Number of Departures: 500429, Number of Observartions: 24999974, Idle Counter: 2, Number of Generated Packets: 5000941, Total packets in Queue: 247221291, Total packets dropped: 4500512, Expected Value: 9.888861924416402, Percentage of packetloss: 0.8999330326032641
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 0.4
+Number of Arrivals: 199816, Number of Departures: 199816, Number of Observartions: 999386, Idle Counter: 600740, Number of Generated Packets: 199816, Total packets in Queue: 665148, Total packets dropped: 0, Expected Value: 0.6655566517841955, Percentage of packetloss: 0.0
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 0.5
+Number of Arrivals: 250378, Number of Departures: 250378, Number of Observartions: 1250253, Idle Counter: 622625, Number of Generated Packets: 250378, Total packets in Queue: 1261803, Total packets dropped: 0, Expected Value: 1.0092381302024471, Percentage of packetloss: 0.0
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 0.6
+Number of Arrivals: 300520, Number of Departures: 300520, Number of Observartions: 1500073, Idle Counter: 596203, Number of Generated Packets: 300521, Total packets in Queue: 2250492, Total packets dropped: 1, Expected Value: 1.500254987590604, Percentage of packetloss: 3.32755448038573E-6
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 0.7
+Number of Arrivals: 350070, Number of Departures: 350070, Number of Observartions: 1752305, Idle Counter: 530883, Number of Generated Packets: 350095, Total packets in Queue: 4063738, Total packets dropped: 25, Expected Value: 2.3190814384482152, Percentage of packetloss: 7.140918893443208E-5
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 0.8
+Number of Arrivals: 399509, Number of Departures: 399509, Number of Observartions: 2000459, Idle Counter: 399830, Number of Generated Packets: 399813, Total packets in Queue: 7816626, Total packets dropped: 304, Expected Value: 3.9074162479710908, Percentage of packetloss: 7.603554661804394E-4
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 0.9
+Number of Arrivals: 446440, Number of Departures: 446440, Number of Observartions: 2248526, Idle Counter: 249576, Number of Generated Packets: 449530, Total packets in Queue: 15602427, Total packets dropped: 3090, Expected Value: 6.938957788346677, Percentage of packetloss: 0.006873846016951038
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 1.0
+Number of Arrivals: 481093, Number of Departures: 481093, Number of Observartions: 2501723, Idle Counter: 92746, Number of Generated Packets: 500408, Total packets in Queue: 31497535, Total packets dropped: 19315, Expected Value: 12.590336739918849, Percentage of packetloss: 0.03859850362104523
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 1.1
+Number of Arrivals: 496221, Number of Departures: 496221, Number of Observartions: 2749010, Idle Counter: 24331, Number of Generated Packets: 549832, Total packets in Queue: 47665177, Total packets dropped: 53611, Expected Value: 17.339033688491494, Percentage of packetloss: 0.09750432859491627
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 1.2
+Number of Arrivals: 499426, Number of Departures: 499426, Number of Observartions: 3000406, Idle Counter: 5570, Number of Generated Packets: 599505, Total packets in Queue: 60588740, Total packets dropped: 100079, Expected Value: 20.193513811130895, Percentage of packetloss: 0.16693605557918617
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 1.3
+Number of Arrivals: 500008, Number of Departures: 500008, Number of Observartions: 3251156, Idle Counter: 1326, Number of Generated Packets: 648852, Total packets in Queue: 70302011, Total packets dropped: 148844, Expected Value: 21.6236966174493, Percentage of packetloss: 0.22939591771313025
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 1.4
+Number of Arrivals: 498568, Number of Departures: 498568, Number of Observartions: 3502818, Idle Counter: 344, Number of Generated Packets: 699477, Total packets in Queue: 78943259, Total packets dropped: 200909, Expected Value: 22.537071295168634, Percentage of packetloss: 0.2872274570857941
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 1.5
+Number of Arrivals: 500012, Number of Departures: 500012, Number of Observartions: 3753382, Idle Counter: 6, Number of Generated Packets: 752213, Total packets in Queue: 86443796, Total packets dropped: 252201, Expected Value: 23.03090812499234, Percentage of packetloss: 0.3352787043031695
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 1.6
+Number of Arrivals: 499157, Number of Departures: 499157, Number of Observartions: 3997224, Idle Counter: 20, Number of Generated Packets: 800779, Total packets in Queue: 93332295, Total packets dropped: 301622, Expected Value: 23.34927814903543, Percentage of packetloss: 0.37666072661745625
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 1.7
+Number of Arrivals: 499719, Number of Departures: 499719, Number of Observartions: 4245509, Idle Counter: 21, Number of Generated Packets: 852617, Total packets in Queue: 100099797, Total packets dropped: 352898, Expected Value: 23.577808220404197, Percentage of packetloss: 0.4138997932248595
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 1.8
+Number of Arrivals: 501098, Number of Departures: 501098, Number of Observartions: 4499374, Idle Counter: 44, Number of Generated Packets: 899391, Total packets in Queue: 106809823, Total packets dropped: 398293, Expected Value: 23.738818555647963, Percentage of packetloss: 0.44284743787740816
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 1.9
+Number of Arrivals: 500510, Number of Departures: 500510, Number of Observartions: 4750802, Idle Counter: 0, Number of Generated Packets: 949468, Total packets in Queue: 113447760, Total packets dropped: 448958, Expected Value: 23.879707047357478, Percentage of packetloss: 0.47285216563380755
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 2.0
+Number of Arrivals: 499708, Number of Departures: 499708, Number of Observartions: 5003726, Idle Counter: 8, Number of Generated Packets: 1000021, Total packets in Queue: 120122559, Total packets dropped: 500313, Expected Value: 24.006622065236986, Percentage of packetloss: 0.5003024936476334
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 2.2
+Number of Arrivals: 500516, Number of Departures: 500516, Number of Observartions: 5500178, Idle Counter: 1, Number of Generated Packets: 1100685, Total packets in Queue: 132895331, Total packets dropped: 600169, Expected Value: 24.16200548418615, Percentage of packetloss: 0.5452686281724562
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 2.4
+Number of Arrivals: 499913, Number of Departures: 499913, Number of Observartions: 6000183, Idle Counter: 11, Number of Generated Packets: 1200302, Total packets in Queue: 145714385, Total packets dropped: 700389, Expected Value: 24.284990141134028, Percentage of packetloss: 0.5835106498197954
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 2.6
+Number of Arrivals: 500800, Number of Departures: 500800, Number of Observartions: 6495596, Idle Counter: 17, Number of Generated Packets: 1299548, Total packets in Queue: 158306954, Total packets dropped: 798748, Expected Value: 24.37142858022574, Percentage of packetloss: 0.6146352424073601
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 2.8
+Number of Arrivals: 501077, Number of Departures: 501077, Number of Observartions: 6996498, Idle Counter: 5, Number of Generated Packets: 1400776, Total packets in Queue: 171009804, Total packets dropped: 899699, Expected Value: 24.442200083527503, Percentage of packetloss: 0.6422861328292317
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 3.0
+Number of Arrivals: 499904, Number of Departures: 499904, Number of Observartions: 7500514, Idle Counter: 1, Number of Generated Packets: 1500427, Total packets in Queue: 183753262, Total packets dropped: 1000523, Expected Value: 24.49875595192543, Percentage of packetloss: 0.6668255103380571
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 3.2
+Number of Arrivals: 500049, Number of Departures: 500049, Number of Observartions: 8000153, Idle Counter: 4, Number of Generated Packets: 1598902, Total packets in Queue: 196355463, Total packets dropped: 1098853, Expected Value: 24.543963471698603, Percentage of packetloss: 0.6872547535746406
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 3.4
+Number of Arrivals: 500172, Number of Departures: 500172, Number of Observartions: 8505998, Idle Counter: 20, Number of Generated Packets: 1699876, Total packets in Queue: 209104439, Total packets dropped: 1199704, Expected Value: 24.583175190024733, Percentage of packetloss: 0.7057597142379797
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 3.6
+Number of Arrivals: 499465, Number of Departures: 499465, Number of Observartions: 9000904, Idle Counter: 4, Number of Generated Packets: 1796748, Total packets in Queue: 221554887, Total packets dropped: 1297283, Expected Value: 24.614737253058138, Percentage of packetloss: 0.7220172222259327
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 3.8
+Number of Arrivals: 499993, Number of Departures: 499993, Number of Observartions: 9503028, Idle Counter: 1, Number of Generated Packets: 1899837, Total packets in Queue: 234180697, Total packets dropped: 1399844, Expected Value: 24.64274513344589, Percentage of packetloss: 0.736823211675528
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 4.0
+Number of Arrivals: 501231, Number of Departures: 501231, Number of Observartions: 10000142, Idle Counter: 14, Number of Generated Packets: 2001786, Total packets in Queue: 246658996, Total packets dropped: 1500555, Expected Value: 24.665549349199242, Percentage of packetloss: 0.7496080999667297
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 4.2
+Number of Arrivals: 499666, Number of Departures: 499666, Number of Observartions: 10499933, Idle Counter: 10, Number of Generated Packets: 2100485, Total packets in Queue: 259221250, Total packets dropped: 1600819, Expected Value: 24.68789562752448, Percentage of packetloss: 0.7621187487651662
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 4.4
+Number of Arrivals: 499557, Number of Departures: 499557, Number of Observartions: 11002351, Idle Counter: 23, Number of Generated Packets: 2197715, Total packets in Queue: 271814405, Total packets dropped: 1698158, Expected Value: 24.70512029656207, Percentage of packetloss: 0.7726925465767854
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 4.6
+Number of Arrivals: 500214, Number of Departures: 500214, Number of Observartions: 11502495, Idle Counter: 3, Number of Generated Packets: 2299298, Total packets in Queue: 284362574, Total packets dropped: 1799084, Expected Value: 24.721816788444595, Percentage of packetloss: 0.7824492519021022
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 4.8
+Number of Arrivals: 499905, Number of Departures: 499905, Number of Observartions: 11998188, Idle Counter: 8, Number of Generated Packets: 2401207, Total packets in Queue: 296801964, Total packets dropped: 1901302, Expected Value: 24.737232322080633, Percentage of packetloss: 0.7918109517421863
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 5.0
+Number of Arrivals: 500185, Number of Departures: 500185, Number of Observartions: 12499660, Idle Counter: 11, Number of Generated Packets: 2499805, Total packets in Queue: 309372354, Total packets dropped: 1999620, Expected Value: 24.750461532553686, Percentage of packetloss: 0.7999103930106548
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 5.4
+Number of Arrivals: 501124, Number of Departures: 501124, Number of Observartions: 13497325, Idle Counter: 24, Number of Generated Packets: 2702532, Total packets in Queue: 334346603, Total packets dropped: 2201408, Expected Value: 24.771323428901653, Percentage of packetloss: 0.8145724083933141
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 5.8
+Number of Arrivals: 499955, Number of Departures: 499955, Number of Observartions: 14501815, Idle Counter: 0, Number of Generated Packets: 2900204, Total packets in Queue: 359531169, Total packets dropped: 2400249, Expected Value: 24.792149741256527, Percentage of packetloss: 0.827613850611888
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 6.2
+Number of Arrivals: 499586, Number of Departures: 499586, Number of Observartions: 15503506, Idle Counter: 2, Number of Generated Packets: 3100425, Total packets in Queue: 384607521, Total packets dropped: 2600839, Expected Value: 24.80777709248476, Percentage of packetloss: 0.8388653168517219
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 6.6
+Number of Arrivals: 499118, Number of Departures: 499118, Number of Observartions: 16505975, Idle Counter: 11, Number of Generated Packets: 3303178, Total packets in Queue: 409703229, Total packets dropped: 2804060, Expected Value: 24.821510331864673, Percentage of packetloss: 0.848897637366197
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 7.0
+Number of Arrivals: 500441, Number of Departures: 500441, Number of Observartions: 17498667, Idle Counter: 1, Number of Generated Packets: 3501118, Total packets in Queue: 434545518, Total packets dropped: 3000677, Expected Value: 24.833064027105607, Percentage of packetloss: 0.8570625154593475
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 7.4
+Number of Arrivals: 498851, Number of Departures: 498851, Number of Observartions: 18503407, Idle Counter: 1, Number of Generated Packets: 3699506, Total packets in Queue: 459693905, Total packets dropped: 3200655, Expected Value: 24.843743911594228, Percentage of packetloss: 0.865157402096388
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 7.8
+Number of Arrivals: 501133, Number of Departures: 501133, Number of Observartions: 19493957, Idle Counter: 13, Number of Generated Packets: 3899567, Total packets in Queue: 484464789, Total packets dropped: 3398434, Expected Value: 24.85204974033748, Percentage of packetloss: 0.8714900910793429
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 8.2
+Number of Arrivals: 497825, Number of Departures: 497825, Number of Observartions: 20497913, Idle Counter: 1, Number of Generated Packets: 4100477, Total packets in Queue: 509622621, Total packets dropped: 3602652, Expected Value: 24.86217113908133, Percentage of packetloss: 0.8785933929150194
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 8.6
+Number of Arrivals: 498848, Number of Departures: 498848, Number of Observartions: 21499735, Idle Counter: 4, Number of Generated Packets: 4297728, Total packets in Queue: 534665799, Total packets dropped: 3798880, Expected Value: 24.86848321618848, Percentage of packetloss: 0.8839275077436264
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 9.0
+Number of Arrivals: 500756, Number of Departures: 500756, Number of Observartions: 22508511, Idle Counter: 10, Number of Generated Packets: 4497202, Total packets in Queue: 559892411, Total packets dropped: 3996446, Expected Value: 24.87469788650169, Percentage of packetloss: 0.8886516549623521
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 9.4
+Number of Arrivals: 500466, Number of Departures: 500466, Number of Observartions: 23504236, Idle Counter: 0, Number of Generated Packets: 4700081, Total packets in Queue: 584804336, Total packets dropped: 4199615, Expected Value: 24.88080599599153, Percentage of packetloss: 0.8935197074263188
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 9.8
+Number of Arrivals: 500068, Number of Departures: 500068, Number of Observartions: 24497211, Idle Counter: 3, Number of Generated Packets: 4899731, Total packets in Queue: 609653405, Total packets dropped: 4399663, Expected Value: 24.886645463436633, Percentage of packetloss: 0.8979397032204421
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 25, rho value: 10.0
+Number of Arrivals: 499845, Number of Departures: 499845, Number of Observartions: 25011481, Idle Counter: 16, Number of Generated Packets: 5002997, Total packets in Queue: 622505626, Total packets dropped: 4503152, Expected Value: 24.888795109733806, Percentage of packetloss: 0.9000908855232174
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 0.4
+Number of Arrivals: 200203, Number of Departures: 200203, Number of Observartions: 999014, Idle Counter: 599848, Number of Generated Packets: 200203, Total packets in Queue: 665868, Total packets dropped: 0, Expected Value: 0.6665251938411274, Percentage of packetloss: 0.0
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 0.5
+Number of Arrivals: 250072, Number of Departures: 250072, Number of Observartions: 1251296, Idle Counter: 626371, Number of Generated Packets: 250072, Total packets in Queue: 1241608, Total packets dropped: 0, Expected Value: 0.9922576272920236, Percentage of packetloss: 0.0
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 0.6
+Number of Arrivals: 299291, Number of Departures: 299291, Number of Observartions: 1499516, Idle Counter: 605964, Number of Generated Packets: 299291, Total packets in Queue: 2225554, Total packets dropped: 0, Expected Value: 1.4841815625841939, Percentage of packetloss: 0.0
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 0.7
+Number of Arrivals: 349826, Number of Departures: 349826, Number of Observartions: 1752536, Idle Counter: 522663, Number of Generated Packets: 349826, Total packets in Queue: 4169096, Total packets dropped: 0, Expected Value: 2.3788932153176883, Percentage of packetloss: 0.0
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 0.8
+Number of Arrivals: 399119, Number of Departures: 399119, Number of Observartions: 2001609, Idle Counter: 407137, Number of Generated Packets: 399119, Total packets in Queue: 7917408, Total packets dropped: 0, Expected Value: 3.955521782725797, Percentage of packetloss: 0.0
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 0.9
+Number of Arrivals: 449015, Number of Departures: 449015, Number of Observartions: 2247939, Idle Counter: 232305, Number of Generated Packets: 449233, Total packets in Queue: 19211824, Total packets dropped: 218, Expected Value: 8.546416962381986, Percentage of packetloss: 4.8527156286381454E-4
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 1.0
+Number of Arrivals: 489551, Number of Departures: 489551, Number of Observartions: 2499877, Idle Counter: 51011, Number of Generated Packets: 499546, Total packets in Queue: 62843234, Total packets dropped: 9995, Expected Value: 25.13853041569645, Percentage of packetloss: 0.02000816741601374
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 1.1
+Number of Arrivals: 499977, Number of Departures: 499977, Number of Observartions: 2747202, Idle Counter: 2733, Number of Generated Packets: 549323, Total packets in Queue: 110549521, Total packets dropped: 49346, Expected Value: 40.24076897148444, Percentage of packetloss: 0.08983057326927874
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 1.2
+Number of Arrivals: 500210, Number of Departures: 500210, Number of Observartions: 2998764, Idle Counter: 35, Number of Generated Packets: 599911, Total packets in Queue: 134908858, Total packets dropped: 99701, Expected Value: 44.988154452967954, Percentage of packetloss: 0.16619298529281842
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 1.3
+Number of Arrivals: 499637, Number of Departures: 499637, Number of Observartions: 3250122, Idle Counter: 11, Number of Generated Packets: 650878, Total packets in Queue: 151794728, Total packets dropped: 151241, Expected Value: 46.70431694564081, Percentage of packetloss: 0.2323645905991599
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 1.4
+Number of Arrivals: 500349, Number of Departures: 500349, Number of Observartions: 3499071, Idle Counter: 23, Number of Generated Packets: 699370, Total packets in Queue: 166133341, Total packets dropped: 199021, Expected Value: 47.4792712122732, Percentage of packetloss: 0.28457182893175287
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 1.5
+Number of Arrivals: 499811, Number of Departures: 499811, Number of Observartions: 3747520, Idle Counter: 9, Number of Generated Packets: 750573, Total packets in Queue: 179877205, Total packets dropped: 250762, Expected Value: 47.99899800401332, Percentage of packetloss: 0.334094085452048
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 1.6
+Number of Arrivals: 500396, Number of Departures: 500396, Number of Observartions: 3999990, Idle Counter: 20, Number of Generated Packets: 800964, Total packets in Queue: 193330273, Total packets dropped: 300568, Expected Value: 48.332689081722705, Percentage of packetloss: 0.37525781433372785
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 1.7
+Number of Arrivals: 500174, Number of Departures: 500174, Number of Observartions: 4250674, Idle Counter: 39, Number of Generated Packets: 848995, Total packets in Queue: 206497961, Total packets dropped: 348821, Expected Value: 48.58005130480484, Percentage of packetloss: 0.4108634326468354
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 1.8
+Number of Arrivals: 498868, Number of Departures: 498868, Number of Observartions: 4502455, Idle Counter: 30, Number of Generated Packets: 900151, Total packets in Queue: 219503964, Total packets dropped: 401283, Expected Value: 48.752061708556774, Percentage of packetloss: 0.4457952054710821
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 1.9
+Number of Arrivals: 500486, Number of Departures: 500486, Number of Observartions: 4750547, Idle Counter: 2, Number of Generated Packets: 951328, Total packets in Queue: 232212307, Total packets dropped: 450842, Expected Value: 48.88117242077597, Percentage of packetloss: 0.47390805274311276
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 2.0
+Number of Arrivals: 500950, Number of Departures: 500950, Number of Observartions: 4999459, Idle Counter: 30, Number of Generated Packets: 999735, Total packets in Queue: 244945322, Total packets dropped: 498785, Expected Value: 48.99436559035688, Percentage of packetloss: 0.4989172130614613
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 2.2
+Number of Arrivals: 499106, Number of Departures: 499106, Number of Observartions: 5499966, Idle Counter: 19, Number of Generated Packets: 1098230, Total packets in Queue: 270404475, Total packets dropped: 599124, Expected Value: 49.164753927569734, Percentage of packetloss: 0.5455359988344882
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 2.4
+Number of Arrivals: 500391, Number of Departures: 500391, Number of Observartions: 6000925, Idle Counter: 11, Number of Generated Packets: 1198989, Total packets in Queue: 295733289, Total packets dropped: 698598, Expected Value: 49.28128396872149, Percentage of packetloss: 0.5826558875852906
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 2.6
+Number of Arrivals: 500552, Number of Departures: 500552, Number of Observartions: 6499404, Idle Counter: 5, Number of Generated Packets: 1298924, Total packets in Queue: 320893525, Total packets dropped: 798372, Expected Value: 49.372761717843666, Percentage of packetloss: 0.6146410413542286
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 2.8
+Number of Arrivals: 501125, Number of Departures: 501125, Number of Observartions: 7001912, Idle Counter: 1, Number of Generated Packets: 1399065, Total packets in Queue: 346195737, Total packets dropped: 897940, Expected Value: 49.443028846977796, Percentage of packetloss: 0.6418143545868134
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 3.0
+Number of Arrivals: 499016, Number of Departures: 499016, Number of Observartions: 7499068, Idle Counter: 21, Number of Generated Packets: 1497596, Total packets in Queue: 371189389, Total packets dropped: 998580, Expected Value: 49.498069493435715, Percentage of packetloss: 0.6667886399269228
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 3.2
+Number of Arrivals: 498707, Number of Departures: 498707, Number of Observartions: 8002187, Idle Counter: 18, Number of Generated Packets: 1598025, Total packets in Queue: 396468050, Total packets dropped: 1099318, Expected Value: 49.54496189604167, Percentage of packetloss: 0.6879229048356565
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 3.4
+Number of Arrivals: 498944, Number of Departures: 498944, Number of Observartions: 8499730, Idle Counter: 10, Number of Generated Packets: 1700687, Total packets in Queue: 421454506, Total packets dropped: 1201743, Expected Value: 49.58445809455124, Percentage of packetloss: 0.7066220886030175
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 3.6
+Number of Arrivals: 500715, Number of Departures: 500715, Number of Observartions: 8997589, Idle Counter: 3, Number of Generated Packets: 1800013, Total packets in Queue: 446407527, Total packets dropped: 1299298, Expected Value: 49.61412740679753, Percentage of packetloss: 0.721827009027157
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 3.8
+Number of Arrivals: 500708, Number of Departures: 500708, Number of Observartions: 9502125, Idle Counter: 9, Number of Generated Packets: 1901160, Total packets in Queue: 471690143, Total packets dropped: 1400452, Expected Value: 49.640490206138104, Percentage of packetloss: 0.7366302678364788
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 4.0
+Number of Arrivals: 500203, Number of Departures: 500203, Number of Observartions: 10001384, Idle Counter: 2, Number of Generated Packets: 2001001, Total packets in Queue: 496735589, Total packets dropped: 1500798, Expected Value: 49.66668503079174, Percentage of packetloss: 0.7500236131816026
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 4.2
+Number of Arrivals: 500113, Number of Departures: 500113, Number of Observartions: 10497385, Idle Counter: 1, Number of Generated Packets: 2097816, Total packets in Queue: 521573485, Total packets dropped: 1597703, Expected Value: 49.686039427914665, Percentage of packetloss: 0.7616030195212545
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 4.4
+Number of Arrivals: 500807, Number of Departures: 500807, Number of Observartions: 10996636, Idle Counter: 10, Number of Generated Packets: 2197829, Total packets in Queue: 546569824, Total packets dropped: 1697022, Expected Value: 49.70336601120561, Percentage of packetloss: 0.7721355938064335
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 4.6
+Number of Arrivals: 501040, Number of Departures: 501040, Number of Observartions: 11496247, Idle Counter: 1, Number of Generated Packets: 2300456, Total packets in Queue: 571606313, Total packets dropped: 1799416, Expected Value: 49.72112316306357, Percentage of packetloss: 0.7821997030154022
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 4.8
+Number of Arrivals: 499211, Number of Departures: 499211, Number of Observartions: 12000309, Idle Counter: 4, Number of Generated Packets: 2402630, Total packets in Queue: 596856688, Total packets dropped: 1903419, Expected Value: 49.73677661133559, Percentage of packetloss: 0.7922231055135414
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 5.0
+Number of Arrivals: 500894, Number of Departures: 500894, Number of Observartions: 12493429, Idle Counter: 21, Number of Generated Packets: 2500386, Total packets in Queue: 621527297, Total packets dropped: 1999492, Expected Value: 49.748335464987235, Percentage of packetloss: 0.7996733304377804
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 5.4
+Number of Arrivals: 499854, Number of Departures: 499854, Number of Observartions: 13500558, Idle Counter: 26, Number of Generated Packets: 2699420, Total packets in Queue: 671948464, Total packets dropped: 2199566, Expected Value: 49.77190305763658, Percentage of packetloss: 0.8148291114387535
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 5.8
+Number of Arrivals: 501655, Number of Departures: 501655, Number of Observartions: 14497083, Idle Counter: 4, Number of Generated Packets: 2899283, Total packets in Queue: 721808158, Total packets dropped: 2397628, Expected Value: 49.78988931773378, Percentage of packetloss: 0.8269727377424004
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 6.2
+Number of Arrivals: 499806, Number of Departures: 499806, Number of Observartions: 15494662, Idle Counter: 14, Number of Generated Packets: 3102035, Total packets in Queue: 771739790, Total packets dropped: 2602229, Expected Value: 49.80681669596923, Percentage of packetloss: 0.8388780268436687
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 6.6
+Number of Arrivals: 500584, Number of Departures: 500584, Number of Observartions: 16501915, Idle Counter: 28, Number of Generated Packets: 3302483, Total packets in Queue: 822144652, Total packets dropped: 2801899, Expected Value: 49.82116633130155, Percentage of packetloss: 0.8484219298025153
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 7.0
+Number of Arrivals: 498845, Number of Departures: 498845, Number of Observartions: 17493252, Idle Counter: 3, Number of Generated Packets: 3494922, Total packets in Queue: 871731087, Total packets dropped: 2996077, Expected Value: 49.83242035271658, Percentage of packetloss: 0.8572657701659723
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 7.4
+Number of Arrivals: 500121, Number of Departures: 500121, Number of Observartions: 18496583, Idle Counter: 19, Number of Generated Packets: 3702289, Total packets in Queue: 921930066, Total packets dropped: 3202168, Expected Value: 49.84326380715833, Percentage of packetloss: 0.8649157318620994
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 7.8
+Number of Arrivals: 501080, Number of Departures: 501080, Number of Observartions: 19508713, Idle Counter: 5, Number of Generated Packets: 3897981, Total packets in Queue: 972553857, Total packets dropped: 3396901, Expected Value: 49.852281747135244, Percentage of packetloss: 0.8714514000966141
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 8.2
+Number of Arrivals: 500702, Number of Departures: 500702, Number of Observartions: 20502017, Idle Counter: 1, Number of Generated Packets: 4099118, Total packets in Queue: 1022235412, Total packets dropped: 3598416, Expected Value: 49.860236287971084, Percentage of packetloss: 0.8778512841055076
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 8.6
+Number of Arrivals: 498711, Number of Departures: 498711, Number of Observartions: 21495361, Idle Counter: 8, Number of Generated Packets: 4299311, Total packets in Queue: 1071930200, Total packets dropped: 3800600, Expected Value: 49.86797849080087, Percentage of packetloss: 0.8840021110359311
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 9.0
+Number of Arrivals: 500567, Number of Departures: 500567, Number of Observartions: 22505719, Idle Counter: 8, Number of Generated Packets: 4500539, Total packets in Queue: 1122464490, Total packets dropped: 3999972, Expected Value: 49.87463364311978, Percentage of packetloss: 0.8887762110271681
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 9.4
+Number of Arrivals: 500487, Number of Departures: 500487, Number of Observartions: 23496120, Idle Counter: 4, Number of Generated Packets: 4697568, Total packets in Queue: 1171986472, Total packets dropped: 4197081, Expected Value: 49.880000272385395, Percentage of packetloss: 0.8934582745795271
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 9.8
+Number of Arrivals: 500196, Number of Departures: 500196, Number of Observartions: 24502033, Idle Counter: 7, Number of Generated Packets: 4902646, Total packets in Queue: 1222310189, Total packets dropped: 4402450, Expected Value: 49.88607227000306, Percentage of packetloss: 0.897974277563585
+*******************************************************************************
+Simulating M/M/1/K for queue size of: 50, rho value: 10.0
+Number of Arrivals: 499340, Number of Departures: 499340, Number of Observartions: 25002475, Idle Counter: 1, Number of Generated Packets: 4996412, Total packets in Queue: 1247339743, Total packets dropped: 4497072, Expected Value: 49.888650743576385, Percentage of packetloss: 0.9000602832592669
