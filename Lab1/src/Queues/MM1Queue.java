@@ -6,12 +6,15 @@ import java.util.LinkedList;
 import Utils.ExponentialRandomVariable;
 
 public class MM1Queue {
+
+    // Simulation parameters
     private final double arrivalRate;
     private final double observerRate;
     private final double packetLength;
     private final double totalSimulationTime;
     private final double transmissionRate;
 
+    //Queue used to store events
     public final LinkedList<QueueEvent> queue = new LinkedList<>();
 
     // Used for collecting data
@@ -120,9 +123,10 @@ public class MM1Queue {
             }
         }
         double expectedValue = Double.valueOf(this.totalNumberofPacketsObserved)/Double.valueOf(this.numberOfObserverEvents);
+        double idleTime = Double.valueOf(this.idleCounter)/Double.valueOf(this.numberOfObserverEvents);
         System.out.println(String.format(
-                "Number of Arrivals: %s, Number of Departures: %s, Number of Observartions: %s, Idle Counter: %s, Number of Generated Packets: %s, Total packets in Queue: %s, Expected Value: %s",
-                this.numberOfArrivals, this.numberOfDepartures, this.numberOfObserverEvents, this.idleCounter, this.generatedPackets, this.totalNumberofPacketsObserved, expectedValue)
+                "Number of Arrivals: %s, Number of Departures: %s, Number of Observartions: %s, Idle Counter: %s, Number of Generated Packets: %s, Total packets in Queue: %s, Expected Value: %s, P Idle: %s",
+                this.numberOfArrivals, this.numberOfDepartures, this.numberOfObserverEvents, this.idleCounter, this.generatedPackets, this.totalNumberofPacketsObserved, expectedValue, idleTime)
         );
     }
 
