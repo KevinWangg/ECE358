@@ -18,13 +18,13 @@ public class MM1Queue {
     public final LinkedList<QueueEvent> queue = new LinkedList<>();
 
     // Used for collecting data
-    private int queueSize = 0;
-    private int numberOfObserverEvents = 0;
-    private int totalNumberofPacketsObserved = 0;
-    private int idleCounter = 0;
-    private int generatedPackets = 0;
-    private int numberOfArrivals = 0;
-    private int numberOfDepartures = 0;
+    private double queueSize = 0;
+    private double numberOfObserverEvents = 0;
+    private double totalNumberofPacketsObserved = 0;
+    private double idleCounter = 0;
+    private double generatedPackets = 0;
+    private double numberOfArrivals = 0;
+    private double numberOfDepartures = 0;
 
     public MM1Queue(double arrivalRate, double packetLength, double transmissionRate, double totalSimulationTime){
         this.arrivalRate = arrivalRate;
@@ -110,20 +110,17 @@ public class MM1Queue {
     public void startSimulation() {
         QueueEvent currentEvent;
         while (this.queue.size() > 0) {
-            if (this.queueSize < 0) {
-                System.out.println("queue size is below 0");
-            }
             currentEvent = this.queue.removeFirst();
-            if (currentEvent.queueType == QueueEvent.Type.Observer) {
+            if (currentEvent.eventType == QueueEvent.Type.Observer) {
                 handleObserverEvent();
-            } else if (currentEvent.queueType == QueueEvent.Type.Arrival) {
+            } else if (currentEvent.eventType == QueueEvent.Type.Arrival) {
                 handleArrivalEvent();
             } else {
                 handleDepartureEvent();
             }
         }
-        double expectedValue = Double.valueOf(this.totalNumberofPacketsObserved)/Double.valueOf(this.numberOfObserverEvents);
-        double idleTime = Double.valueOf(this.idleCounter)/Double.valueOf(this.numberOfObserverEvents);
+        double expectedValue = this.totalNumberofPacketsObserved/this.numberOfObserverEvents;
+        double idleTime = this.idleCounter/this.numberOfObserverEvents;
         System.out.println(String.format(
                 "Number of Arrivals: %s, Number of Departures: %s, Number of Observartions: %s, Idle Counter: %s, Number of Generated Packets: %s, Total packets in Queue: %s, Expected Value: %s, P Idle: %s",
                 this.numberOfArrivals, this.numberOfDepartures, this.numberOfObserverEvents, this.idleCounter, this.generatedPackets, this.totalNumberofPacketsObserved, expectedValue, idleTime)

@@ -17,17 +17,16 @@ public class MM1KQueue {
     public final LinkedList<QueueEvent> eventsQueue = new LinkedList<>();
     private final LinkedList<QueueEvent> packetQueue = new LinkedList<>();
 
-    private final int totalQueueSize;
-    private int currentQueueSize = 0;
-    private int packetsDropped = 0;
-    private int numberOfObserverEvents = 0;
-    private int totalNumberofPacketsObserved = 0;
-    private int queueSize = 0;
-    private int simulationQueueSize = 0;
-    private int idleCounter = 0;
-    private int generatedPackets = 0;
-    private int numberOfArrivals = 0;
-    private int numberOfDepartures = 0;
+    private final int maximumQueueSize;
+    private double packetsDropped = 0;
+    private double numberOfObserverEvents = 0;
+    private double totalNumberofPacketsObserved = 0;
+    private double queueSize = 0;
+    private double simulationQueueSize = 0;
+    private double idleCounter = 0;
+    private double generatedPackets = 0;
+    private double numberOfArrivals = 0;
+    private double numberOfDepartures = 0;
 
     public MM1KQueue(double arrivalRate, double packetLength, double transmissionRate, double totalSimulationTime, int queueSize){
         this.arrivalRate = arrivalRate;
@@ -35,7 +34,7 @@ public class MM1KQueue {
         this.totalSimulationTime = totalSimulationTime;
         this.packetLength = packetLength;
         this.transmissionRate = transmissionRate;
-        this.totalQueueSize = queueSize;
+        this.maximumQueueSize = queueSize;
     }
 
     public void addEvents() {
@@ -62,7 +61,7 @@ public class MM1KQueue {
             time += arrival;
             removePacketFromQueue(time);
             this.generatedPackets += 1;
-            if (this.packetQueue.size() == this.totalQueueSize) {
+            if (this.packetQueue.size() == this.maximumQueueSize) {
                 this.packetsDropped += 1;
             } else {
                 currentDeparture = createDepartureEvents(previousDeparture, time);
@@ -70,7 +69,6 @@ public class MM1KQueue {
                 this.eventsQueue.add(arrivalEvent);
                 this.eventsQueue.add(currentDeparture);
                 this.packetQueue.add(currentDeparture);
-                this.currentQueueSize += 1;
                 previousDeparture = currentDeparture;
             }
         }
@@ -132,9 +130,9 @@ public class MM1KQueue {
         QueueEvent currentEvent;
         while (this.eventsQueue.size() > 0) {
             currentEvent = this.eventsQueue.removeFirst();
-            if (currentEvent.queueType == QueueEvent.Type.Observer) {
+            if (currentEvent.eventType == QueueEvent.Type.Observer) {
                 handleObserverEvent();
-            } else if (currentEvent.queueType == QueueEvent.Type.Arrival) {
+            } else if (currentEvent.eventType == QueueEvent.Type.Arrival) {
                 handleArrivalEvent();
             } else {
                 handleDepartureEvent();

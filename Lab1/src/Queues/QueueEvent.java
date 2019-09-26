@@ -6,10 +6,10 @@ public class QueueEvent {
         Departure,
         Observer
     }
-    public Type queueType;
+    public Type eventType;
     public double eventTime;
     public QueueEvent(Type type, Double time) {
-        this.queueType = type;
+        this.eventType = type;
         this.eventTime = time;
     }
 }

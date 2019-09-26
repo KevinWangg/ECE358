@@ -15,9 +15,8 @@ public class Main {
         int [] queueSizes = {10, 25, 50};
 
         double [] rhoValuesMM1 = {0.25, 0.35, 0.45, 0.55, 0.65, 0.75, 0.85, 0.95};
-        String [] commandArgs = args;
 
-        switch (commandArgs[0]) {
+        switch (args[0]) {
             case "1": {
                 System.out.println("********************************************************************************* \n");
                 System.out.println("Question 1 \n");
