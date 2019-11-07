@@ -1,0 +1,1 @@
+The values for a non-persistent CSMACD simulation with 100 nodes and packet arrival rate of 20.000000 packets/sec are: efficiency = 0.982353, throughput = 901746.765665 
